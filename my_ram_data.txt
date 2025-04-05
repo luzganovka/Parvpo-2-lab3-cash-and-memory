@@ -1,0 +1,22 @@
+from dmidecode report:
+Memory Device (X2)
+	Size: 8 GB
+	Speed: 4266 MT/s
+    Memory Technology: DRAM
+
+from lshw report
+*-cache:0
+    description: L1 cache
+    size: 512KiB
+    capacity: 512KiB
+    clock: 1GHz (1.0ns)
+*-cache:1
+    description: L2 cache
+    size: 4MiB
+    capacity: 4MiB
+    clock: 1GHz (1.0ns)
+*-cache:2
+    slot: L3 - Cache
+    size: 16MiB
+    capacity: 16MiB
+    clock: 1GHz (1.0ns)
